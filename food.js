@@ -56,9 +56,7 @@ function barkInDom(dogData) {
 // Cat JSON function to import and parse contents of cat.json
 function feedCats() {
 	var data = JSON.parse(this.responseText);
-	console.log("data", data );
 	var zelda = data.cat_brands;
-	console.log(zelda);
 	purInDom(zelda);
 }
 
