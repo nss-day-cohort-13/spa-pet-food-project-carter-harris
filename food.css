@@ -1,0 +1,61 @@
+/***************************
+  FONTS
+***************************/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
+
+
+
+/***************************
+  GENERAL
+***************************/
+
+#wrapper {
+	padding-top: 15px;
+	background: #70e1f5;
+	background: -webkit-linear-gradient(to left, #70e1f5 , #ffd194);
+	background: linear-gradient(to left, #70e1f5 , #ffd194);
+}
+
+#main-content {
+	font-family: 'Lato', sans-serif;
+	width: 90%;
+	margin-left: 4.8%;
+}
+
+#header {
+	font-size: 3em;
+	font-weight: 700;
+	margin: 0 0 10px 4px;
+}
+
+ .col-headers {
+ 	font-size: 17px;
+ }
+
+
+/***************************
+  DOG FOOD TABLE
+***************************/
+
+.dog-food-header {
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+
+/***************************
+  CAT FOOD TABLE
+***************************/
+
+.cat-food-table {
+	margin-top: 30px;
+}
+
+.cat-food-header {
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+}
